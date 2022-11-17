@@ -1,9 +1,10 @@
 .todoapp {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     margin: auto;
+    min-height: 70vh;
 }
 
 .width-400 {
