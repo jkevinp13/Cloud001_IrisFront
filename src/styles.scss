@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  font-family: 'Galano Grotesque Alt', sans-serif;
+}
+.mt-body{
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Galano Grotesque', sans-serif; }
+
+
+.mat-form-field-appearance-fill .mat-form-field-flex{
+    background-color: #F5F5F5 !important;
+}
+
+.mat-icon.mat-warn {
+  color: #ff0000;
+}

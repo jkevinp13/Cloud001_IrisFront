@@ -1,0 +1,14 @@
+<section class="todoapp">
+  <h1>To do List</h1>
+  <app-todo-footer></app-todo-footer>
+  <app-todo-add></app-todo-add>
+
+  <section class="main">
+    <h3>{{currentFilter | titlecase}}</h3>
+    <mat-divider></mat-divider>
+    <app-todo-list></app-todo-list>
+
+  </section>
+
+</section>
+<mat-divider></mat-divider>

@@ -1,0 +1,6 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>add To Do</mat-label>
+    <input matInput placeholder="clean car" [formControl]="txtInput" (keyup.enter)="addTodo()">
+  </mat-form-field>
+</form>

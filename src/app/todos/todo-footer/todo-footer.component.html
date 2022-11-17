@@ -1,0 +1,8 @@
+<mat-form-field appearance="fill">
+  <mat-label>filter</mat-label>
+  <mat-select>
+    <mat-option *ngFor=" let filter of filters" (click)="changeFilter(filter)">
+      {{filter | titlecase }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
